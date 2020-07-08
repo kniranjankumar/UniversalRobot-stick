@@ -359,7 +359,7 @@
     <link name="stick">
     <visual>
       <geometry>
-        <mesh filename="package://ur_description/meshes/ur10/visual/stick.obj" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://ur_description/meshes/ur10/visual/stick.obj" scale="0.001 0.001 0.00245"/>
       </geometry>
       <material name="LightGrey">
         <color rgba="0.7 0.7 0.7 1.0"/>
@@ -368,7 +368,7 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://ur_description/meshes/ur10/collision/stick.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://ur_description/meshes/ur10/collision/stick.stl" scale="0.001 0.001 0.00245"/>
       </geometry>
       <origin rpy="0 0 0" xyz="0 0.005 0.022"/>
     </collision>
